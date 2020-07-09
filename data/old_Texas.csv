@@ -1,4 +1,4 @@
-Year,Period,employment,unemployment,unemployment rate,single_home_avg_prices,is_covid
+Year ,Period ,employment,unemployment,unemployment rate,single_home_avg_prices,is_covid
 2010,Jan,11067039,1001712,8.3,98857.92902,0
 2010,Feb,11112513,1003999,8.3,98739.01182,0
 2010,Mar,11157088,1003504,8.3,98645.39086,0
