@@ -26,32 +26,34 @@
             <ul class="nav navbar-nav">
 
                 <li class="dropdown">
-                <li><a href="californai.html">California</a></li>
-                <li><a href="florida.html">Florida</a></li>
-                <li><a href="newyork.html">New York</a></li>
-                <li><a href="texas.html">Texas</a></li>
+                <li><a href="california">California</a></li>
+                <li><a href="florida">Florida</a></li>
+                <li><a href="newyork">New York</a></li>
+                <li><a href="texas">Texas</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
 
     </div><!-- /.container-fluid -->
 </nav>
 
+<body>
 
-
-<div id="container">
+<div id="container" style='padding-left: 50px; background-color: #f5fafa; '>
     <div class="row">
-        <div class="col-md-8 mx-auto">
-            <div class='tableauPlaceholder' id='viz1594826662125' style='position: relative'>
+        <div class="col-md-8">
+            <div class="row">
+            <div class='tableauPlaceholder' id='viz1594826662125'  style='width: 800px; height: 600px;'>
                 <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Corona20203&#47;Caliun-price-year&#47;1_rss.png' style='border: none' /></a>
                 </noscript>
-                <object class='tableauViz'  style='display:none;'>
+                <object class='tableauViz'  width='800px' height='600px'  style='display:none;'>
                     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
                     <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
                     <param name='name' value='Corona20203&#47;Caliun-price-year' />
                     <param name='tabs' value='no' />
                     <param name='toolbar' value='yes' />
-                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Corona20203&#47;Caliun-price-year&#47;1.png' /> <param name='animate_transition' value='yes' />
-                    <param name='display_static_image' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Corona20203&#47;Caliun-price-year&#47;1.png' /> 
+                    <param name='animate_transition' value='yes' />
+                    <!-- <param name='display_static_image' value='yes' /> -->
                     <param name='display_spinner' value='yes' />
                     <param name='display_overlay' value='yes' />
                     <param name='display_count' value='yes' />
@@ -61,50 +63,52 @@
                 var divElement = document.getElementById('viz1594826662125');
                 var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
                 var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
-                </div>
-                <div class="col-md-4 mx-auto">
+            </div> 
+            </div>
+    
+            <div class="row">
+                <div class="col-md-8">
                     <h4>
-                        Leveraging unemployment data from the U.S. Bureau of Labor Statistics (BLS) and the most recent real estate data for single family home prices on zillow.com; to determine pre-covid results we measured data from January through May of 2019.
-                        Based on our analysis you can see that prior to Covid-19 the average unemployment index peaked at a little over 800,000 and the average price for a single-family home was just above $400,000.
+                        <p>Leveraging unemployment data from the U.S. Bureau of Labor Statistics (BLS) and the most recent real estate data for single family home prices on zillow.com; to determine pre-covid results we measured data from January through May of 2019.</p>
+                        <p>Based on our analysis you can see that prior to Covid-19 the average unemployment index peaked at a little over 800,000 and the average price for a single-family home was just above $400,000.</p>
 
                     </h4>
                 </div>
             </div>
-            <div class="col-md-8 mx-auto">
+        </div>
+            <div class="row">
+            <div class="col-md-8">
                 <img src="https://corona-2020-bucket.s3.us-east-2.amazonaws.com/ca-unemployment.JPG" >
-                <h1>Hello World</h1>
-                <br>
                 <!--div class="col-lg-12"><img src="static/images/ca-unemployment.jpg"></div> -->
             </div>
-            <div class="col-md-4 mx-auto">
+            </div>
+            <div class="row">
+            <div class="col-md-8">
                 <h4>
-                    To determine covid climate results we measured data from January through May of 2020.
-                    Based on our analysis you can see that in the Covid-19 climate there is a huge spike in the unemployment index; reaching close to 1.8 million which is a one million increase from the prior year’s 800,000.  Despite the large increase in unemployment there was no negative impact on the price of a single-family home.  The average price for a single-family home continued rise; with an increase to about $500,000 from the previous year’s $400,000.
+                    <p>To determine covid climate results we measured data from January through May of 2020.</p>
+                    <p>Based on our analysis you can see that in the Covid-19 climate there is a huge spike in the unemployment index; reaching close to 1.8 million which is a one million increase from the prior year’s 800,000.  Despite the large increase in unemployment there was no negative impact on the price of a single-family home.  The average price for a single-family home continued rise; with an increase to about $500,000 from the previous year’s $400,000.</p>
 
                 </h4>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                        <!-- <h4>Measuring the impact of Pre-Covid-19</h4> -->
+                        <img src="https://corona-2020-bucket.s3.us-east-2.amazonaws.com/ca-comparison-pre-covid.JPG" >
+                </div>
+        
+                <div class="col-md-4">
+                    <!-- <h4>Measuring the impact of Pre-Covid-19</h4> -->
+                    <img src="https://corona-2020-bucket.s3.us-east-2.amazonaws.com/ca-comparison_covid.JPG" >
+                    <!-- <p>California's employment vs Single price homes</p> -->
+                    <br>
+                </div>
             </div>
         <br>
     </div>
 
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 mx-auto">
-                <h4>Measuring the impact of Pre-Covid-19</h4>
-                <img src="https://corona-2020-bucket.s3.us-east-2.amazonaws.com/ca-comparison-pre-covid.JPG" >
-                <br><br>
-        </div>
-
-        <div class="col-md-4 mx-auto">
-            <h4>Measuring the impact of Pre-Covid-19</h4>
-            <img src="https://corona-2020-bucket.s3.us-east-2.amazonaws.com/ca-comparison_covid.JPG" >
-            <p>California's employment vs Single price homes</p>
-            <br>
-        </div>
-    </div>
+  
 </div>
 
-
-
-</div>
-
+</body>
+</html>
