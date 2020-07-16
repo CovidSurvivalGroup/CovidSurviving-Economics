@@ -40,7 +40,7 @@
 
 <div id="container">
     <div class="row">
-        <div class="col-md-8">
+        <!-- <div class="col-md-8">
             <h1 class="sum-h1">California</h1>
         <div class='tableauPlaceholder' id='viz1594832267035' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;3M&#47;3MM3RWNPJ&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'>
             <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
@@ -57,14 +57,14 @@
         <script type='text/javascript'>
         var divElement = document.getElementById('viz1594832267035');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
         </script>
-        </div>
+        </div> -->
         <div class="col-md-2">
             <section class="add-summary">
                 <h4>Covid Impact 2019 v 2020</h4>
                 <hr class="hr-page"/>
                 <div class="div_vis_img">
                      <!-- <a href="maxtemp.html"><img class="vis_img" src="static/ca_unemp50p.jpg.jpg"  alt="City_Latitude_vs_Max_Temperature"/></a> -->
-                     <a href="humidity.html"><img class="img-thumbnail" src="static/images/ca_unemp50p.jpg" alt="City_Latitude_vs_Humidity"/></a>
+                     <a href="humidity.html"><img class="img-thumbnail" src="static/images/ca_unemp50p.jpg" /></a>
                      <!-- <a href="cloudiness.html"><img class="vis_img" src="Img/Fig3.png" alt="City_Latitude_vs_Cloudiness"></a>
                      <a href="windspeed.html"><img class="vis_img" src="Img/Fig4.png" alt="City_Latitude_vs_Wind_Speed"></a> -->
                 </div>
@@ -103,21 +103,20 @@
 
 
     <div class="row">
-<<<<<<< HEAD
-        <div class="col-lg-12"><img src="static/images/ca-unemployment_g.jpg"> </div>
-    </div>
-</div>
-=======
-        <div class="col-lg-12"><img src="static/images/ca-unemployment.jpg"></div>
+        <img src="{{url_for('static', filename='images/ca-unemployment.jpg')}}" >
+        <!--div class="col-lg-12"><img src="static/images/ca-unemployment.jpg"></div> -->
     </div>    
     <div class="row">
         <div class="col-lg-12">
             <div class="row">
-            <div class="col-lg-6"><img src="static/images/ca-comparison-pre-covid.jpg"></div>
-            <div class="col-lg-6"><img src="static/images/ca-comparison_covid.jpg"></div>
+                <img src="{{url_for('static', filename='images/ca-comparison-pre-covid.jpg')}}" >
+            <!-- <div class="col-lg-6"><img src="static/images/ca-comparison-pre-covid.jpg"></div> -->
+                <img src="{{url_for('static', filename='images/ca-comparison_covid.jpg')}}" >
+            <!-- <div class="col-lg-6"><img src="static/images/ca-comparison_covid.jpg"></div> -->
             </div>
         </div>
     </div>    
->>>>>>> 2633f6f0283a22fe2072b03a895f448a9bb37df1
+
+
 </div>
 
