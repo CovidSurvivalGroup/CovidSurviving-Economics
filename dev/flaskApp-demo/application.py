@@ -22,6 +22,9 @@ def newyork():
 def texas():
     return render_template('texas.html')
 
+@application.route('/ml')
+def ml():
+    return render_template('ml.html')
 
 if __name__ == '__main__':
     application.run(debug=True)
